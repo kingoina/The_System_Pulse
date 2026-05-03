@@ -38,7 +38,7 @@ The_System_Pulse/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/The_System_Pulse.git
+git clone https://github.com/kingoina/The_System_Pulse
 cd The_System_Pulse
 ```
 
