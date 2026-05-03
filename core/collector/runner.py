@@ -7,6 +7,5 @@ def run_monitor(interval:float=1.0):
     while True:
         snapshot = collect_system_snapshot()
         log_snapshot(snapshot)
-        print(snapshot)
         time.sleep(interval)
 

@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-
+import os
 import time
 import psutil
 from rich.live import Live
 from rich.console import Console
 
 from core.collector.system import collect_system_snapshot
+from core.collector.runner import run_monitor
 from core.ui.dashboard import build_layout
 
 
 def main():
     console = Console()
+
+    os.makedirs("logs", exist_ok=True)
+
 
     psutil.cpu_percent(interval=None)
     for p in psutil.process_iter():
