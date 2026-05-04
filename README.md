@@ -1,7 +1,7 @@
 # System Pulse 🖥️
 
 A professional terminal-based system monitoring dashboard built with Python and Rich.
-Real-time CPU and memory monitoring with clean, structured panels — designed for
+Real-time CPU and memory monitoring with clean, structured panels designed for
 developers and system administrators.
 
 ## Features
